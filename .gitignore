@@ -1,0 +1,34 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment variables (PENTING BANGET)
+.env
+.env.test
+.env.production
+.env.local
+
+# Bot Session/Authentication folders
+# (Biar session login bot WhatsApp kamu gak ikut ke-push dan dibajak)
+auth_info_baileys/
+.wwebjs_auth/
+.wwebjs_cache/
+session/
+sessions/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# OS metadata
+.DS_Store
+Thumbs.db
